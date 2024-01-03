@@ -27,6 +27,10 @@
     height: calc(var(--sg) * 6);
 }
 
+.navigation-bar[b-yn5gadwwv0] {
+    z-index: 1000;
+}
+
 .navigation-bar.toggled[b-yn5gadwwv0] {
     display: block;
     transition: 0.3s;
