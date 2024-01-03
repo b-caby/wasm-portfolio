@@ -1,3 +1,15 @@
+/* /Components/ProgressDoughnut.razor.rz.scp.css */
+.doughnut circle[b-q41gh6ybsv] {
+    fill: none;
+    stroke: var(--primary);
+    stroke-width: 28px;
+}
+
+.doughnut-progress[b-q41gh6ybsv] {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-dasharray: 317.3;
+}
 /* /Layout/HeaderBar.razor.rz.scp.css */
 .header-bar[b-yn5gadwwv0] {
     background-color: var(--header);
