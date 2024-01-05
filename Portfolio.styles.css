@@ -139,3 +139,29 @@
     box-sizing: border-box;
     border-bottom: var(--sg_sm) solid var(--primary-complementary);
 }
+/* /Pages/ArticlePage.razor.rz.scp.css */
+.year-container[b-d6me8xi2if] {
+    font-family: Bitter, sans-serif;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: var(--sg);
+    font-size: 18px;
+}
+
+.article-container[b-d6me8xi2if] {
+    padding: var(--sg_lg) 0px;
+}
+
+.link-container[b-d6me8xi2if] {
+    padding-bottom: var(--sg);
+}
+
+.link[b-d6me8xi2if] {
+    color: var(--primary); 
+    font-size: 18px;
+}
+
+span.author[b-d6me8xi2if] {
+    color: var(--primary);
+    font-weight: 600;
+}
