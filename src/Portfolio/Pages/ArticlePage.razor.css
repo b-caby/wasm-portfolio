@@ -1,5 +1,4 @@
 ﻿.year-container {
-    font-family: Bitter, sans-serif;
     font-weight: 600;
     border-bottom: 1px solid black;
     padding-bottom: var(--sg);
@@ -15,8 +14,9 @@
 }
 
 .link {
-    color: var(--primary); 
+    color: var(--primary);
     font-size: 18px;
+    font-family: Bitter, sans-serif;
 }
 
 span.author {
