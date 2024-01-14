@@ -11,6 +11,7 @@
     --outline: #333333;
     --grey-default: #CECECE;
     --grey-darker: #6C6C6C;
+    --secondary: #E6DACE;
     /* Soft Grid Base Unit*/
     --sg-unit: 8px;
     --sg_sm: calc(var(--sg-unit) * 0.5);

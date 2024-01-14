@@ -11,6 +11,16 @@
 
 .link-container {
     padding-bottom: var(--sg);
+    display: flex;
+    grid-gap: var(--sg_lg);
+}
+
+.symbol {
+    height: var(--sg);
+    width: var(--sg);
+    background-color: var(--primary);
+    flex-shrink: 0;
+    margin-top: 9px;
 }
 
 .link {
@@ -22,4 +32,8 @@
 span.author {
     color: var(--primary);
     font-weight: 600;
+}
+
+.subtext {
+    margin-left: 24px;
 }
