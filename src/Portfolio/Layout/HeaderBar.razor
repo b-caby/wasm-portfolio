@@ -1,10 +1,8 @@
 ﻿<div class="header-bar">
-    <div class="header-section">
-        <NavLink class="home-link" href="">
-            <div class="symbol"></div>
-            <span class="name">Juliana Tavora</span>
-        </NavLink>
-    </div>
+    <NavLink class="home-link" href="">
+        <div class="symbol"></div>
+        <span class="name">Juliana Tavora</span>
+    </NavLink>
 
     <div style="display:flex;">
         <div class=@($"navigation-bar {ClassName}")>
@@ -12,15 +10,10 @@
         </div>
 
         <div class="header-button-section">
-            <button class="header-button" @onclick=Toggle>
-                @if (Toggled)
-                {
-                    <CloseIcon />
-                }
-                else
-                {
-                    <MenuIcon />
-                }
+            <button class=@($"header-button {ClassName}") @onclick=Toggle>
+                <div class="menu-line line-1"></div>
+                <div class="menu-line line-2"></div>
+                <div class="menu-line line-3"></div>
             </button>
         </div>
     </div>

@@ -15,17 +15,17 @@
 }
 
     ::deep .navbar-item:hover .navbar-title {
-        color: var(--primary-complementary);
+        color: var(--primary-hover);
     }
 
 ::deep .navbar-title {
     color: var(--primary);
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
-    top: 16px;
+    top: 14px;
 }
 
 ::deep .active .navbar-item {
     box-sizing: border-box;
-    border-bottom: var(--sg_sm) solid var(--primary-complementary);
+    border-bottom: var(--sg_sm) solid var(--primary-hover);
 }
