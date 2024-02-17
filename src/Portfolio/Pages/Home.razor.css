@@ -1,6 +1,16 @@
 ﻿.home-page {
     height: 100%;
-    background: linear-gradient(90deg, var(--secondary) 0%, var(--secondary) 33%, var(--background) 33%);
+    display: grid;
+    grid-template-columns: 33% auto;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sg_xlg);
+    align-items: center;
+    background-color: var(--secondary);
+    padding-top: 92px;
 }
 
 .picture-container {
@@ -15,6 +25,90 @@
     mask-size: 100% 100%;
 }
 
-.social-link {
-    display:flex;
+.contact {
+    display: flex;
+    gap: var(--sg_lg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.social-links {
+    display: flex;
+    gap: var(--sg);
+    justify-content: center;
+}
+
+    .social-links a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .social-links a:hover ::deep svg {
+            fill: var(--primary-hover);
+        }
+
+.contact-button {
+    display: flex;
+    gap: var(--sg);
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: var(--sg) var(--sg_lg);
+    font-size: 16px;
+}
+
+    .contact-button:hover {
+        background-color: var(--primary-hover);
+    }
+
+.personal-interest {
+    padding: 64px;
+}
+
+.hello {
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description {
+    margin-top: var(--sg_lg);
+}
+
+.interests {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+    flex-wrap: wrap;
+}
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sg_lg);
+    padding: var(--sg);
+}
+
+@media (max-width: 900px) {
+    .home-page {
+        grid-template-columns: auto;
+    }
+
+    .personal-info {
+        padding: var(--sg_lg);
+    }
 }
